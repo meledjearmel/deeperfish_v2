@@ -1,0 +1,40 @@
+[x-cloak] { display: none; }
+
+.content_value {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.content_value .tooltip {
+    position: absolute;
+    top: calc(-10px);
+    width: max-content;
+    padding: 5px;
+    border: 2px rgba(0, 0, 0, 0.4);
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+}
+
+.content_value .tooltip .text_tooltip {
+    font-size: 14px;
+}
+
+.transition-in-300 { transition: all ease-in .3s; }
+.transition-out-300 { transition: all ease-out .3s; }
+
+.translate-full { transform: translate(100%) }
+.translate-none { transform: translate(0) }
+.-translate-full { transform: translate(-100%) }
+
+.opacity-0 { opacity: 0 }
+.opacity-100 { opacity: 1 }
+
+.display-none { display: none }
+
+.text-green { color: #2a9055!important; }
+.text-red { color: #8a1f11!important; }
